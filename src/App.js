@@ -17,7 +17,7 @@ function toggleDarkMode() {
     <div>
     <Router>
       <div>
-        <Route exact path="/" 
+        <Route exact path="" 
         render={(props) => <Airbnb2 {...props} darkMode={darkMode} toggleDarkMode={toggleDarkMode}/> }
         />
 
