@@ -4,7 +4,7 @@ import { FaMapPin } from 'react-icons/fa';
 export default function Fuji(props){
     return (
     <div className="compact">
-        <img className="travelImg" src={`../publicimages/${props.image}`}></img>
+        <img className="travelImg" src={`airbnbSite/publicimages/${props.image}`}></img>
         <div className="allInfo">
             <div className="maps">
             <span className="pin"><FaMapPin /> </span>
