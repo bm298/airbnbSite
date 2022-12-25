@@ -18,7 +18,7 @@ import { FaHeart} from 'react-icons/fa';
               <FaHeart className={darkMode ? "heartOverlayDark" : "heartOverlay"} onClick={toggleHeart}/>
             </div>
               <br/>
-              <img src={`../publicimages/${props.star1}`} className="star" alt="star"></img>
+              <img src={`publicimages/${props.star1}`} className="star" alt="star"></img>
               <span><b>{props.rating}, </b></span>
               <span><b>{props.country}</b></span>
               <p className="title">{props.title}</p>
