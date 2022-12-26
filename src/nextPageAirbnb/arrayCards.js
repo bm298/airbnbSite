@@ -5,7 +5,7 @@ export default [
     experience:"Mount Fuji",
     date:"12 Jan, 2021-24 Jan, 2021",
     description:`Mount Fuji is the
-    tallest mountain in Japan, standnig at 3776m tall.`
+    tallest mountain in Japan, standing at 3776m tall.`
 },
 {
     image: 'SOH.jpg',
