@@ -1,161 +1,185 @@
 /* Beginning Mobile */
 
-@media (max-width: 450px ){
-
-    body{
-        font-size: 0.5rem;   
-    }
-
-    .nav{
-        padding:5px;
-        }
-
-    .logo1{
-        width: 40px
-    }
-
-    .searchBar{
-        width:100px;
-        height: 30px;
-        padding: 2px 5px;
-
-    }
-
-    .search{
-        max-width:65px;
-        font-size: 0.6rem;
-    }
-
-    .searchDark{
-       max-width:65px;
-        font-size: 0.6rem;
-    }
-
-    .fafafa {
-        padding: 0px;
-        width: 1rem;
-        height: 1.2rem;
-        padding:2px;
-    }
-
-    .container2{
-        margin: 0px 1rem;
-    }
+@media (max-width: 1200px ){
 
     .backgroundimg {
-        height:auto
-    }
-
-    .txtOverlay {
-        margin: 0px;
-        width: 100%;
-        left: 56%;
-    }
-
-/*******Online Experiences **/
-
-.OnlineEx h3 {
-    text-align: center;
-}
-
-.OnlineEx p {
-    margin-right: initial;
-    text-align: center;
-}
-
-
-
-/*******CARDCOMP**/
-
-.joint{
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 30%;
-}
-
-.cardimg {
-    height: 180px;
-    width: 150px;
-}
-
-.cardHeartOverlay {
-}
-
-.CardComp {
-    font-size: 1.3em;
-}
-
-.heartOverlay {
-    position: absolute;
-    top: 10%;
-    left: 32%;
-}
-
-.heartOverlayDark {
-    position: absolute;
-    top: 10%;
-    left: 32%;
-}
-
-.allInfo, p {
-    font-size: 12px;
-}
-
-/*Footer*/
-
-.travelBtn {
-    font-size: 1.2em;
-    padding: 10px;
-    position: fixed;
-    bottom: 3rem;
-    right: 5px;
-}
-
-.darkTravelBtn {
-    font-size: 1.2em;
-    padding: 10px;
-    position: fixed;
-    bottom: 3rem;
-    right: 5px;
-}
-
-.footer{
-    height: auto;
-}
-
-.footerDark {
+    height: 400px;
     width: 100%;
-    background-color: #222222;
-    display: flex;
-    position: fixed;
-    bottom: 0px;
-    right: 0;
-    border: solid 1px #EBEBEB;
-}
-
-
-.footerDark, ul{
+    }
+    
+    .txtOverlay{
+        font-size: 2em;
+    }
+    
+    .cardimg{
+    height: 250px;
+    width: 80%;
+    }
+    
+    .heartOverlay {
+        font-size: 1.2em;
+    }
+    
+    }
+    
+    @media (max-width: 450px ){
+    
+        body{
+            font-size: 0.5rem;   
+        }
+    
+        .nav{
+            padding:5px;
+            }
+    
+        .logo1{
+            width: 40px
+        }
+    
+        .searchBar{
+            width:100px;
+            height: 30px;
+            padding: 2px 5px;
+    
+        }
+    
+    
+        .search{
+            max-width:65px;
+            font-size: 0.6rem;
+        }
+    
+        .searchDark{
+           max-width:65px;
+            font-size: 0.6rem;
+        }
+    
+        .fafafa {
+            padding: 0px;
+            width: 1rem;
+            height: 1.2rem;
+            padding:2px;
+        }
+    
+        .container2{
+            margin: 0px 1rem;
+        }
+    
+        .backgroundimg {
+            height:auto
+        }
+    
+        .txtOverlay {
+            margin: 0px;
+            width: 100%;
+            left: 56%;
+        }
+    
+    /*******Online Experiences **/
+    
+    .OnlineEx h3 {
+        text-align: center;
+    }
+    
+    .OnlineEx p {
+        margin-right: initial;
+        text-align: center;
+    }
+    
+    
+    
+    /*******CARDCOMP**/
+    
+    .joint{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30%;
+    }
+    
+    .cardimg {
+        height: 180px;
+        width: 150px;
+    }
+    
+    .cardCompContainer {
+    max-width: none;
+    }
+    
+    .CardComp {
+        font-size: 1.3em;
+    }
+    
+    .heartOverlay {
+        position: absolute;
+        top: 10%;
+        left: 32%;
+    }
+    
+    .heartOverlayDark {
+        position: absolute;
+        top: 10%;
+        left: 32%;
+    }
+    
+    .allInfo, p {
+        font-size: 12px;
+    }
+    
+    /*Footer*/
+    
+    .travelBtn {
+        font-size: 1.2em;
+        padding: 10px;
+        position: fixed;
+        bottom: 3rem;
+        right: 5px;
+    }
+    
+    .darkTravelBtn {
+        font-size: 1.2em;
+        padding: 10px;
+        position: fixed;
+        bottom: 3rem;
+        right: 5px;
+    }
+    
+    .footer{
         height: auto;
-        grid-gap: 25px;
-        align-items: center;
-        padding-left: 0px;
-        margin-left: initial
-}
-
-/****NextPage****/
-
-.compact {
-    /* display: flex; */
-    justify-content: center;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.maps {
-    display: flex;
-    justify-content: center;
-}
-
-
-
-}
+    }
+    
+    .footerDark {
+        width: 100%;
+        background-color: #222222;
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+        border: solid 1px #EBEBEB;
+    }
+    
+    
+    .footerDark, ul{
+            height: auto;
+            grid-gap: 25px;
+            align-items: center;
+            padding-left: 0px;
+            margin-left: initial
+    }
+    
+    /****NextPage****/
+    
+    .compact {
+        /* display: flex; */
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .maps {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    }
