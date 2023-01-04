@@ -126,6 +126,8 @@ html{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3em;
+  width: 100%;
+  text-align: center;
 }
 
 .backgroundimg{
@@ -166,14 +168,20 @@ justify-content: center;
 /*----------------------------CardComp----------------*/
 .joint{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 30px;
+  grid-gap: 30px ;
   margin-bottom: 100px;
+  text-align: center;
 }
 
+.cardCompContainer{
+  max-width: 23%;
+  }
+
 .cardimg{
-  height: 400px;
-  width: 350px;
+  height: 350px;
+  width: 75%;
   border-radius: 20px;
   margin-bottom: 10px;
 }
@@ -190,7 +198,7 @@ opacity: 0.8;
 .heartOverlay{
   position: absolute;
   top: 20px;
-  right: 30px;
+  right: 15%;
   font-size: 1.6em;
   stroke: white;
   stroke-width: 30;
@@ -200,7 +208,7 @@ opacity: 0.8;
 .heartOverlayDark{
   position: absolute;
   top: 20px;
-  right: 30px;
+  right: 15%;
   font-size: 1.6em;
   color: red;
   stroke: white;
