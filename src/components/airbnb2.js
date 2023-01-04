@@ -55,7 +55,7 @@ function CardEl(){
 
       let dataEl = data.map(datas => {
             return (
-                  <div>
+                  <div className='cardCompContainer'>
                 <Cardairbnb2
                     face1={datas.face1}
                     star1={datas.star1}
